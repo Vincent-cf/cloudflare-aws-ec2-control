@@ -1,0 +1,17 @@
+{
+  "name": "aws-control",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "wrangler": "3.93.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.703.0"
+  }
+}
